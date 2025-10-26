@@ -19,10 +19,18 @@ WM: Hyprland
 #### https://github.com/hyprwm/Hyprland /
 #### https://hypr.land/
 -------------------------------------------
-Theme: Catppuccin (Macchiato)
+Theme: 
+Catppuccin (Macchiato)
 #### https://catppuccin.com/
-adw-gtk3 and adw-gtk3 Catppuccin theme:
+#### https://github.com/catppuccin
+adw-gtk3 and adw-gtk3 catppuccin theme:
 #### https://github.com/lassekongo83/adw-gtk3
 #### https://github.com/claymorwan/catppuccin
+Papirus-folders and catppuccin folders icon
+#### https://github.com/PapirusDevelopmentTeam/papirus-folders
+#### https://github.com/catppuccin/papirus-folders
 -------------------------------------------
+Therminal: Alacritty
+#### https://alacritty.org/
+#### https://github.com/alacritty/alacritty
 
