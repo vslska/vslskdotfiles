@@ -1,0 +1,12 @@
+# Wofi — конфиг
+
+width=17%
+height=17%
+lines=1
+prompt=Launch
+insensitive=false
+allow-images=true
+show-icons=true
+font="JetBrainsMono Nerd Font 13"
+cursor-theme=Catppuccin-Mocha-Light
+cursor-size=24

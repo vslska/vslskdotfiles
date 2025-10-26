@@ -1,0 +1,68 @@
+/* Wofi — Catppuccin Mocha Theme */
+
+/* Основные цвета */
+@define-color base #1e1e2e;
+@define-color surface #313244;
+@define-color overlay #45475a;
+@define-color text #cdd6f4;
+@define-color rosewater #f5e0dc;
+@define-color mauve #c6a0f6;
+@define-color green #a6e3a1;
+@define-color yellow #f9e2af;
+@define-color red #f38ba8;
+
+/* Шрифт */
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+    color: @text;
+}
+
+/* Окно */
+window {
+    background-color: rgba(30, 30, 46, 0.95);
+    border-radius: 13px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid @mauve;
+}
+
+/* Строка ввода */
+#input {
+    background-color: @surface;
+    color: @text;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid @mauve;
+    margin-bottom: 10px;
+}
+
+/* Список */
+#list {
+    spacing: 5px;
+}
+
+/* Элемент списка */
+#entry {
+    padding: 15px;
+    background-color: @surface;
+    border-radius: 8px;
+    border: 1px solid @mauve;
+}
+
+#entry:hover {
+    background-color: @overlay;
+    color: @rosewater;
+    border-color: @mauve;
+}
+
+/* Иконки */
+#entry > image {
+    margin-right: 10px;
+    icon-size: 18px;
+}
+
+/* Прозрачность при запуске */
+window#layer-shell {
+    background-color: transparent;
+}

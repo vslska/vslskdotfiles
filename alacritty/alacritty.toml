@@ -1,0 +1,19 @@
+[general]
+import = ["~/.config/alacritty/themes/catppuccin.toml"]
+
+[window]
+decorations = "none"
+startup_mode = "Maximized"
+opacity = 0.85
+padding.x = 15
+padding.y = 11
+
+
+[env]
+TERM = "xterm-256color"
+
+[selection]
+save_to_clipboard = true
+
+[mouse]
+hide_when_typing = true

@@ -1,0 +1,10 @@
+[main]
+auto-scroll = true
+color-tsharks = ['/usr/bin/tshark']
+dark-mode = true
+last-used-tshark = '/usr/bin/tshark'
+recent-filters = ['sdap']
+respect-colorterm = true
+theme-truecolor = 'catppuccin'
+validated-tsharks = ['/usr/bin/tshark']
+

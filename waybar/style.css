@@ -1,0 +1,57 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font";
+    font-size: 12px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#clock,
+#battery,
+#mpd,
+#memory,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#cpu {
+  padding: 3px 2px;
+  margin: 2px 3px;
+  color: #b7bdf8;
+}
+#battery {
+    color: #babbf1;
+}
+
+#pulseaudio {
+    color: #c6a0f6;
+}
+
+#network {
+    color: #f4b8e4;
+}
+
+#clock {
+    color: #b7bdf8;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #494d64;
+    border-bottom: 2px solid transparent;
+}
+#workspaces button.active {
+  color: #b7bdf8;
+  border-bottom: 2px solid transparent;
+}
+#waybar {
+    background: rgba(36, 39, 58, 0.90);
+    color: #cdd6f4;
+    border-bottom: 1px solid rgba(73, 77, 100, 0.3);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    min-height: 0;
+}

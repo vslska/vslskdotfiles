@@ -1,0 +1,74 @@
+# Catppuccin Macchiato Theme for termshark
+# https://colors.catppuccin.com
+
+unused = "#79e11a"  # Можно оставить как у дракулы
+
+[catppuccin]
+  # Base colors
+  base = "#24273a"     # Base
+  surface0 = "#363a55"
+  surface1 = "#494d64"
+  surface2 = "#5b6078"
+  overlay0 = "#8087a2"
+  subtext0 = "#9399b2"
+  lavender = "#b7bdf6" # Акцент!
+  text = "#cad3f5"
+  white = "#eceff4"
+
+  # Palette
+  red = "#ed8796"
+  orange = "#f5a97f"
+  yellow = "#eed49f"
+  green = "#a6da95"
+  cyan = "#8bd6f9"
+  blue = "#8aadf4"
+  purple = "#c6a0f6"
+  pink = "#f5bde6"
+
+[dark]
+  button = ["catppuccin.base", "catppuccin.overlay0"]
+  button-focus = ["catppuccin.base", "catppuccin.lavender"]
+  button-selected = ["catppuccin.white", "catppuccin.overlay0"]
+  cmdline = ["catppuccin.base", "catppuccin.yellow"]
+  cmdline-button = ["catppuccin.yellow", "catppuccin.base"]
+  cmdline-border = ["catppuccin.base", "catppuccin.yellow"]
+  copy-mode = ["catppuccin.base", "catppuccin.yellow"]
+  copy-mode-alt = ["catppuccin.yellow", "catppuccin.base"]
+  copy-mode-label = ["catppuccin.white", "catppuccin.red"]
+  current-capture = ["catppuccin.white", "themes.unused"]
+  dialog = ["catppuccin.base", "catppuccin.yellow"]
+  dialog-button = ["catppuccin.yellow", "catppuccin.base"]
+  default = ["catppuccin.text", "catppuccin.base"]
+  filter-empty = ["catppuccin.base", "catppuccin.cyan"]
+  filter-intermediate = ["catppuccin.base", "catppuccin.orange"]
+  filter-invalid = ["catppuccin.base", "catppuccin.red"]
+  filter-menu = ["catppuccin.text", "catppuccin.base"]
+  filter-valid = ["catppuccin.base", "catppuccin.green"]
+  hex-byte-selected = ["catppuccin.white", "catppuccin.lavender"]
+  hex-byte-unselected = ["catppuccin.text", "catppuccin.base"]
+  hex-field-selected = ["catppuccin.base", "catppuccin.cyan"]
+  hex-field-unselected = ["catppuccin.base", "catppuccin.text"]
+  hex-interval-selected = ["catppuccin.text", "catppuccin.surface1"]
+  hex-interval-unselected = ["catppuccin.text", "catppuccin.surface0"]
+  hex-layer-selected = ["catppuccin.text", "catppuccin.surface1"]
+  hex-layer-unselected = ["catppuccin.text", "catppuccin.surface0"]
+  packet-list-cell-focus = ["catppuccin.text", "catppuccin.lavender"]
+  packet-list-cell-selected = ["catppuccin.text", "catppuccin.surface1"]
+  packet-list-row-focus = ["catppuccin.base", "catppuccin.lavender"]
+  packet-list-row-selected = ["catppuccin.text", "catppuccin.surface1"]
+  packet-struct-focus = ["catppuccin.base", "catppuccin.cyan"]
+  packet-struct-selected = ["catppuccin.base", "catppuccin.surface1"]
+  progress-complete = ["catppuccin.base", "catppuccin.lavender"]
+  progress-default = ["catppuccin.text", "catppuccin.base"]
+  progress-spinner = ["catppuccin.yellow", "catppuccin.lavender"]
+  spinner = ["catppuccin.yellow", "catppuccin.base"]
+  stream-client = ["catppuccin.base", "catppuccin.red"]
+  stream-match = ["catppuccin.base", "catppuccin.yellow"]
+  stream-search = ["catppuccin.base", "catppuccin.text"]
+  stream-server = ["catppuccin.text", "catppuccin.blue"]
+  title = ["catppuccin.red", "themes.unused"]
+
+[light]
+  # Если захочешь — можно добавить later
+  # Пока оставим как заглушку
+  default = ["catppuccin.base", "catppuccin.text"]
