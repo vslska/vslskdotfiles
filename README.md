@@ -1,7 +1,7 @@
 Hi everyone, here are my dotfiles
 
 
-![Uploading screen-2025-11-02_12:48:26.png…]()
+<img width="1920" height="1081" alt="image" src="https://github.com/user-attachments/assets/a61928a6-79cc-4963-82a6-130cf587dd75" />
 
 
 -------------------------------------------
