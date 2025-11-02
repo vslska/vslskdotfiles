@@ -1,7 +1,7 @@
 ### Hi everyone, here are my dotfiles.
 
 
-<img width="1920" height="1081" alt="image" src="https://github.com/user-attachments/assets/a61928a6-79cc-4963-82a6-130cf587dd75" />
+<img width="1921" height="1081" alt="image" src="https://github.com/user-attachments/assets/3fa149f5-8c94-4669-aab5-5af87589c5b7" />
 <img width="1921" height="1081" alt="image" src="https://github.com/user-attachments/assets/8955f1fc-edbd-48ae-8153-21659475a65c" />
 <img width="1921" height="1081" alt="image" src="https://github.com/user-attachments/assets/2f30191d-521e-4ffb-869c-5b8502b41322" />
 
