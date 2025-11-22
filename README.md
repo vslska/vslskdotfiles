@@ -10,7 +10,7 @@
 
 
 -------------------------------------------
-OS: **Arch Linux 6.17.5-arch1-1**
+OS: **Arch Linux**
 #### https://github.com/archlinux
 -------------------------------------------
 Shell: **ZSH (Oh My ZSH )**
@@ -24,16 +24,17 @@ WM: **Hyprland**
 Bar: **Waybar**
 #### https://github.com/Alexays/Waybar
 -------------------------------------------
-Launcher: **Wofi**
-#### https://github.com/SimplyCEO/wofi
+Launcher: **Walker/Elephant**
+#### https://github.com/abenz1267/walker
+#### https://github.com/abenz1267/elephant
 -------------------------------------------
 Therminal: **Alacritty**
 #### https://alacritty.org/
 #### https://github.com/alacritty/alacritty
 -------------------------------------------
-File manager: **Thunar** and **Ranger**
+File manager: **Thunar** and **Yazi**
 #### https://github.com/xfce-mirror/thunar
-#### https://github.com/ranger/ranger
+#### https://github.com/sxyazi/yazi
 -------------------------------------------
 Theme: 
 **Catppuccin (Macchiato)**
