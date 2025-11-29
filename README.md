@@ -1,10 +1,11 @@
 ### Hi everyone, here are my dotfiles.
 
-<img width="1924" height="1080" alt="image" src="https://github.com/user-attachments/assets/ba376a7a-2700-4f44-859d-20ec28f0f364" />
+<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/09296670-0298-40d0-b624-dc4f9cbe7a0c" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b7f720e5-4de5-4561-9dde-cd8fc75017c8" />
+<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/1e5cc147-ff13-4706-bb1c-2e1547965404" />
 
-<img width="1953" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c2f2ce2-c385-4d64-9d8e-aeda6cce6fdf" />
+<img width="1921" height="1080" alt="image" src="https://github.com/user-attachments/assets/50901c03-9912-4a4e-9d06-8f3c61719c99" />
+
 
 
 
