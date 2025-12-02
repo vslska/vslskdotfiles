@@ -143,5 +143,8 @@
   "theme.bar.menus.menu.network.card.color": "#1e2030",
   "menus.dashboard.powermenu.avatar.image": "/home/vslsk/.config/hyprpanel/avatar/archcahnpixel-mauve.png",
   "theme.bar.menus.menu.dashboard.profile.size": "10.3em",
-  "theme.bar.menus.menu.dashboard.profile.radius": "1.7em"
+  "theme.bar.menus.menu.dashboard.profile.radius": "1.7em",
+  "wallpaper.pywal": false,
+  "wallpaper.image": "/home/vslsk/.config/background",
+  "theme.bar.menus.monochrome": false
 }
