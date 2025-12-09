@@ -22,8 +22,9 @@ WM: **Hyprland**
 #### https://github.com/hyprwm/Hyprland /
 #### https://hypr.land/
 -------------------------------------------
-Bar: **Waybar**
-#### https://github.com/Alexays/Waybar
+Bar: **Hyprpanel**
+#### https://hyprpanel.com/
+#### https://github.com/Jas-SinghFSU/HyprPanel
 -------------------------------------------
 Launcher: **Walker/Elephant**
 #### https://github.com/abenz1267/walker
