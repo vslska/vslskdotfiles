@@ -1,6 +1,6 @@
 ### Hi everyone, here are my dotfiles.
 
-<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/09296670-0298-40d0-b624-dc4f9cbe7a0c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6c7d5701-764b-4496-bf21-8e545c397d18" />
 
 <img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/1e5cc147-ff13-4706-bb1c-2e1547965404" />
 
