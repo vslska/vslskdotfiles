@@ -1,0 +1,30 @@
+set selection-clipboard clipboard
+
+
+# Установка цвета фона и текста по умолчанию (используются HTML-цвета
+set default-bg "#303446"
+set default-fg "#c6d0f5"
+# Цвет фона и текста строки состояния
+set statusbar-fg "#f4dbd6"
+set statusbar-bg "#24273a"
+
+# Цвет фона и текста командной строки
+set inputbar-fg "#f4dbd6"
+set inputbar-bg "#363a4f"
+
+# Цвет выделения
+#set highlight-color "#494d64"
+#set highlight-active-color "#cad4f5"
+#set highlight-fg "#cad3f5" 
+
+set notification-fg "#cad3f5"
+set notification-bg "#494d64"
+
+set notification-error-bg "#ed8796"
+set notification-warning-bg "#eed49f"
+
+# Включение инверсии цветов документа (темный режим)
+# Используйте <C-r> (Ctrl+R) во время работы программы для переключения
+set recolor true
+set recolor-darkcolor "#c6d0f5"
+set recolor-lightcolor "#292c3c"
