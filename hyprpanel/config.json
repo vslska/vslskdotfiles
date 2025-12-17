@@ -146,5 +146,12 @@
   "theme.bar.menus.menu.dashboard.profile.radius": "1.7em",
   "wallpaper.pywal": false,
   "wallpaper.image": "/home/vslsk/.config/background",
-  "theme.bar.menus.monochrome": false
+  "theme.bar.menus.monochrome": false,
+  "theme.bar.menus.menu.power.buttons.shutdown.icon": "#24273a",
+  "theme.bar.menus.menu.power.buttons.shutdown.background": "#1e2030",
+  "theme.bar.menus.menu.power.buttons.restart.icon": "#24273a",
+  "theme.bar.menus.menu.power.buttons.sleep.icon": "#24273a",
+  "theme.bar.menus.menu.power.buttons.logout.icon": "#24273a",
+  "theme.bar.menus.dropdownmenu.background": "#24273a",
+  "theme.bar.menus.tooltip.background": "#24273a"
 }
