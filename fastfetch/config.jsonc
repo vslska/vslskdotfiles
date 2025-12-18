@@ -4,7 +4,7 @@
     "type": "file",
     "source": "~/.config/fastfetch/logos/anime3",
     "color": {
-      "1": "blue",
+      "1": "#f5e0dc",
       "2": "",
       "3": "",
       "4": "",
@@ -38,10 +38,10 @@
     "hideCursor": false,
     "separator": ": ",
     "color": {
-      "keys": "blue",
-      "title": "red",
-      "output": "",
-      "separator": ""
+      "keys": "yellow",
+      "title": "green",
+      "output": "white",
+      "separator": "magenta"
     },
     "brightColor": true,
     "duration": {
