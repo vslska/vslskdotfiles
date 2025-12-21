@@ -1,6 +1,7 @@
 ### Hi everyone, here are my dotfiles.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6c7d5701-764b-4496-bf21-8e545c397d18" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8bb80b7e-40ef-4177-a6c3-66e6cd8374fa" />
+
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a9cbd2ab-66fb-4a9e-ade1-6b268c9a7e0d" />
 
@@ -30,9 +31,9 @@ Launcher: **Walker/Elephant**
 #### https://github.com/abenz1267/walker
 #### https://github.com/abenz1267/elephant
 -------------------------------------------
-Therminal: **Alacritty**
-#### https://alacritty.org/
-#### https://github.com/alacritty/alacritty
+Therminal: **Ghostty**
+#### https://ghostty.org/
+#### https://github.com/ghostty-org/ghostty
 -------------------------------------------
 File manager: **Thunar** and **Yazi**
 #### https://github.com/xfce-mirror/thunar
