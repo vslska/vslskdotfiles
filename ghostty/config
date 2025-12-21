@@ -4,7 +4,7 @@ font-family-bold = JetBrainsMono
 font-family-italic = JetBrainsMono
 font-family-bold-italic = JetBrainsMono
 font-size = 10.8
-adjust-cell-width = 10%
+adjust-cell-width = 6.0%
 adjust-cell-height = 2%
 #
 #Window

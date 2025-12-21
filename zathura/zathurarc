@@ -1,30 +1,34 @@
 set selection-clipboard clipboard
 
+set default-fg                rgba(202,211,245,1)
+set default-bg                rgba(36,39,58,1)
 
-# Установка цвета фона и текста по умолчанию (используются HTML-цвета
-set default-bg "#303446"
-set default-fg "#c6d0f5"
-# Цвет фона и текста строки состояния
-set statusbar-fg "#f4dbd6"
-set statusbar-bg "#24273a"
+set completion-bg             rgba(54,58,79,1)
+set completion-fg             rgba(202,211,245,1)
+set completion-highlight-bg   rgba(198,160,246,1)
+set completion-highlight-fg   rgba(36,39,58,1)
+set completion-group-bg       rgba(30,32,48,1)
+set completion-group-fg       rgba(202,211,245,1)
 
-# Цвет фона и текста командной строки
-set inputbar-fg "#f4dbd6"
-set inputbar-bg "#363a4f"
+set statusbar-fg              rgba(202,211,245,1)
+set statusbar-bg              rgba(24,25,38,1)
+set inputbar-fg               rgba(202,211,245,1)
+set inputbar-bg               rgba(36,39,58,1)
 
-# Цвет выделения
-#set highlight-color "#494d64"
-#set highlight-active-color "#cad4f5"
-#set highlight-fg "#cad3f5" 
+set notification-bg           rgba(36,39,58,1)
+set notification-fg           rgba(202,211,245,1)
+set notification-error-bg     rgba(36,39,58,1)
+set notification-error-fg     rgba(237,135,150,1)
+set notification-warning-bg   rgba(36,39,58,1)
+set notification-warning-fg   rgba(238,212,159,1)
 
-set notification-fg "#cad3f5"
-set notification-bg "#494d64"
+set recolor                   "true"
+set recolor-lightcolor        rgba(36,39,58,1)
+set recolor-darkcolor         rgba(202,211,245,1)
 
-set notification-error-bg "#ed8796"
-set notification-warning-bg "#eed49f"
+set render-loading-bg         rgba(36,39,58,1)
+set render-loading-fg         rgba(202,211,245,1)
 
-# Включение инверсии цветов документа (темный режим)
-# Используйте <C-r> (Ctrl+R) во время работы программы для переключения
-set recolor true
-set recolor-darkcolor "#c6d0f5"
-set recolor-lightcolor "#292c3c"
+set highlight-color           rgba(147,154,183,0.3)
+set highlight-fg              rgba(202,211,245,1)
+set highlight-active-color    rgba(198,160,246,0.3)
