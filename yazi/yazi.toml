@@ -1,0 +1,33 @@
+# ~/.config/yazi/yazi.toml
+[mgr]
+show_hidden = true
+sort_by = "natural"
+show_symlink = true
+
+[opener]
+vlc = [
+    { run = 'vlc "$@"', orphan = true, for = "unix" }
+]
+imv = [
+    { run = 'imv "$@"', orphan = true, for = "unix" }
+]
+zathura = [
+    { run = 'zathura "$@"', orphan = true, for = "unix" }
+]
+vim_edit = [
+	{ run = 'vim "$@"', block = true, for = "unix" },
+]
+
+[open]
+prepend_rules = [
+    { mime = "video/*", use = "vlc" },
+    { mime = "audio/*", use = "vlc" },
+    { mime = "image/*", use = "imv" },
+    { mime = "application/pdf", use = "zathura" },
+    { mime = "text/*", use = "vim_edit" },
+    { name = "*.txt",  use = "vim_edit" },
+    { name = "*.conf", use = "vim_edit" },
+    { name = "*.sh",   use = "vim_edit" },
+]
+
+

@@ -1,11 +1,10 @@
 #Font
-font-family = JetBrainsMono
-font-family-bold = JetBrainsMono
-font-family-italic = JetBrainsMono
-font-family-bold-italic = JetBrainsMono
+font-family = "JetBrainsMono Nerd Font"
 font-size = 10.8
-adjust-cell-width = 6.0%
-adjust-cell-height = 2%
+font-thicken = true
+adjust-cell-width = 6%
+adjust-cell-height = 3%
+
 #
 #Window
 window-padding-x = 15
@@ -15,8 +14,6 @@ window-inherit-working-directory = false
 window-theme = dark
 #Theme
 theme = Catppuccin Macchiato
-bold-is-bright = true
-selection-invert-fg-bg = true
 background-opacity = 0.87
 cursor-style = block
 gtk-titlebar-hide-when-maximized = true
