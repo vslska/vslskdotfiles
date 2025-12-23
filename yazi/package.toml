@@ -8,6 +8,16 @@ use = "yazi-rs/plugins:git"
 rev = "19dc890"
 hash = "27ca02f49fd236b5cc7bf03c243859fe"
 
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-filter"
+rev = "19dc890"
+hash = "bcda8eeb3f4013bae156aecabfc745e8"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:toggle-pane"
+rev = "19dc890"
+hash = "8a7c58225816a163a6e8730c0adafbc8"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-macchiato"
 rev = "3edeb49"
