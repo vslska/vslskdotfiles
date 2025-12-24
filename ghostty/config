@@ -17,6 +17,7 @@ theme = Catppuccin Macchiato
 background-opacity = 0.87
 cursor-style = block
 gtk-titlebar-hide-when-maximized = true
+gtk-toolbar-style = raised
 #
 # # Empty values are used to reset config keys to default.
 # key =
