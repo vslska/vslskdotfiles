@@ -15,7 +15,7 @@ while true; do
   # Меняем обои с анимацией
   swww img "$WALL" \
     --transition-type random \
-    --transition-duration 2 \
+    --transition-duration 3 \
     --transition-fps 60
 
   sleep 30

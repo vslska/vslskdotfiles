@@ -20,8 +20,8 @@ vim_edit = [
 
 [open]
 prepend_rules = [
-    { mime = "video/*", use = "vlc" },
-    { mime = "audio/*", use = "vlc" },
+    { mime = "video/*", use = "celluloid" },
+    { mime = "audio/*", use = "celluloid" },
     { mime = "image/*", use = "imv" },
     { mime = "application/pdf", use = "zathura" },
     { mime = "text/*", use = "vim_edit" },

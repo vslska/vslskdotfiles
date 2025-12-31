@@ -9,16 +9,17 @@ adjust-cell-height = 3%
 #Window
 window-padding-x = 15
 window-padding-y = 11
-window-decoration = auto
 window-inherit-working-directory = false
 window-theme = dark
 #Theme
 theme = Catppuccin Macchiato
 background-opacity = 0.87
 cursor-style = block
-gtk-titlebar-hide-when-maximized = true
-gtk-toolbar-style = raised
-#
+gtk-tabs-location = bottom
+gtk-titlebar-style = native
+gtk-wide-tabs = false
+window-decoration = true
+gtk-custom-css = ~/my/git/dotfiles/ghostty/ui.css
 # # Empty values are used to reset config keys to default.
 # key =
 #

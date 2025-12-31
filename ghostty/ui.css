@@ -1,0 +1,53 @@
+/* В GTK4 для переноса используем внутренний селектор box */
+window box.vertical {
+    -gtk-icon-transform: rotate(180deg); /* Радикальный способ переворота, если нужно */
+}
+
+/* СЖАТИЕ ПАНЕЛИ ВКЛАДОК */
+notebook header {
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #181825;
+}
+
+/* Сама вкладка */
+notebook tab {
+    min-height: 20px;
+    padding: 2px 8px;
+    margin: 0;
+    border-radius: 0;
+    background-image: none;
+    background-color: transparent;
+}
+
+/* Текст вкладки (tmux style) */
+notebook tab label {
+    font-family: monospace;
+    font-size: 11px;
+    color: #9399b2;
+}
+
+/* Активная вкладка */
+notebook tab:checked {
+    background-color: #313244;
+}
+
+notebook tab:checked label {
+    color: #fab387;
+}
+
+/* Скрытие кнопки закрытия без веб-свойств */
+notebook tab button {
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+/* Убираем заголовок */
+headerbar {
+    min-height: 0;
+    padding: 0;
+}
