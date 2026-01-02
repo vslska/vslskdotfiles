@@ -73,13 +73,13 @@
   "menus.clock.time.hideSeconds": false,
   "menus.clock.weather.location": "Saint Peterburg",
   "menus.dashboard.stats.enable_gpu": false,
-  "menus.dashboard.shortcuts.left.shortcut1.command": "ghostty --command \"zsh\" --new-window=false --command \"yazi\" --new-window=false --command \"btop\"",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "ghostty",
   "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Console",
   "menus.dashboard.shortcuts.left.shortcut1.icon": "󰆍",
   "menus.dashboard.shortcuts.left.shortcut3.command": "bleachbit",
   "menus.dashboard.shortcuts.left.shortcut3.tooltip": "Cleaner",
   "menus.dashboard.shortcuts.left.shortcut3.icon": "",
-  "menus.dashboard.shortcuts.left.shortcut4.command": "",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "steam-native",
   "menus.dashboard.directories.left.directory2.label": "󰉏 Config",
   "menus.dashboard.directories.left.directory2.command": "bash -c \"xdg-open $HOME/.config/\"",
   "menus.dashboard.directories.left.directory3.command": "bash -c \"xdg-open $HOME/my/\"",
@@ -198,7 +198,7 @@
   "bar.launcher.middleClick": "",
   "bar.launcher.scrollUp": "",
   "menus.dashboard.shortcuts.left.shortcut2.tooltip": "VsCode",
-  "menus.dashboard.shortcuts.left.shortcut4.tooltip": "",
+  "menus.dashboard.shortcuts.left.shortcut4.tooltip": "Steam",
   "bar.layouts": {
     "0": {
       "left": [
@@ -252,7 +252,7 @@
     }
   },
   "theme.bar.buttons.bluetooth.enableBorder": true,
-  "menus.dashboard.shortcuts.left.shortcut4.icon": "",
+  "menus.dashboard.shortcuts.left.shortcut4.icon": "",
   "theme.bar.buttons.windowtitle.background": "#24273a",
   "theme.bar.buttons.windowtitle.icon_background": "#24273a",
   "theme.bar.buttons.dashboard.background": "#24273a",
