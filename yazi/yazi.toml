@@ -5,8 +5,8 @@ sort_by = "natural"
 show_symlink = true
 
 [opener]
-vlc = [
-    { run = 'vlc "$@"', orphan = true, for = "unix" }
+celluloid = [
+    { run = 'celluloid "$@"', orphan = true, for = "unix" }
 ]
 imv = [
     { run = 'imv "$@"', orphan = true, for = "unix" }
