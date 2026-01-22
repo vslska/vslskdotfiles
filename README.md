@@ -1,29 +1,29 @@
 
-Shell: **ZSH (Oh My ZSH )**
+Shell: **ohmyzsh**
 #### https://ohmyz.sh/
 #### https://github.com/ohmyzsh/ohmyzsh/
 -------------------------------------------
-WM: **Hyprland**
+WM: **hyprland**
 #### https://github.com/hyprwm/Hyprland /
 #### https://hypr.land/
 -------------------------------------------
-Bar: **Hyprpanel**
+Bar: **hyprpanel**
 #### https://hyprpanel.com/
 #### https://github.com/Jas-SinghFSU/HyprPanel
 -------------------------------------------
-Launcher: **Walker/Elephant**
+Launcher: **walker**
 #### https://github.com/abenz1267/walker
 #### https://github.com/abenz1267/elephant
 -------------------------------------------
-Therminal: **Ghostty**
+Therminal: **ghostty**
 #### https://ghostty.org/
 #### https://github.com/ghostty-org/ghostty
 -------------------------------------------
-File manager: **Thunar** and **Yazi**
+File manager: **thunar** and **yazi**
 #### https://github.com/xfce-mirror/thunar
 #### https://github.com/sxyazi/yazi
 -------------------------------------------
-Wallpaper: **SWWW**
+Wallpaper: **swww**
 #### https://github.com/LGFae/swww
 Theme: 
 **Catppuccin (Macchiato)**
