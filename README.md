@@ -29,12 +29,4 @@ Theme:
 **Catppuccin (Macchiato)**
 #### https://catppuccin.com/
 #### https://github.com/catppuccin
-GTK:
-**adw-gtk3** and **adw-gtk3 catppuccin theme**
-#### https://github.com/lassekongo83/adw-gtk3
-#### https://github.com/claymorwan/catppuccin
-Folders:
-**Papirus-folders** and **catppuccin folders icon**
-#### https://github.com/PapirusDevelopmentTeam/papirus-folders
-#### https://github.com/catppuccin/papirus-folders
 -------------------------------------------
