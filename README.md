@@ -1,12 +1,4 @@
 
-
-
-
-
--------------------------------------------
-OS: **Arch Linux**
-#### https://github.com/archlinux
--------------------------------------------
 Shell: **ZSH (Oh My ZSH )**
 #### https://ohmyz.sh/
 #### https://github.com/ohmyzsh/ohmyzsh/
