@@ -1,8 +1,5 @@
 ### Hi everyone, here are my dotfiles.
 
-<img width="1921" height="1080" alt="image" src="https://github.com/user-attachments/assets/2fc35579-d1d0-4a17-a20a-26edd03f1826" />
-
-<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/3a4da575-fbb3-4df3-a94f-3e353cff7c86" />
 
 
 
