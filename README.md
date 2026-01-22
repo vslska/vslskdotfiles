@@ -1,4 +1,3 @@
-### Hi everyone, here are my dotfiles.
 
 
 
