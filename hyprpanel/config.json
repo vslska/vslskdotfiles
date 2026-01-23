@@ -138,7 +138,7 @@
   "theme.bar.buttons.dashboard.enableBorder": true,
   "theme.bar.buttons.battery.enableBorder": true,
   "theme.bar.buttons.systray.enableBorder": true,
-  "bar.launcher.icon": "",
+  "bar.launcher.icon": "󰣇",
   "theme.bar.menus.menu.network.background.color": "#24273a",
   "theme.bar.menus.menu.network.card.color": "#1e2030",
   "menus.dashboard.powermenu.avatar.image": "/home/vslsk/.config/hyprpanel/avatar/archcahnpixel-mauve.png",
