@@ -3,7 +3,7 @@
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/67c1a0f0-aa57-45b6-86e4-e6ab4607a0ee" />
 
-
+---
 
 Shell: **ohmyzsh**
 #### https://ohmyz.sh/
