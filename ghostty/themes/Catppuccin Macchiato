@@ -1,0 +1,24 @@
+palette = 0= #494d64
+palette = 1= #ed8796
+palette = 2= #a6da95
+palette = 3= #eed49f
+palette = 4= #8aadf4
+palette = 5= #c6a0f6
+palette = 6= #89dceb
+palette = 7= #b7bdf8
+# Bright аналоги для вашей палитры
+palette = 8= #45475a
+palette = 9= #f38ba8
+palette = 10= #a6e3a1
+palette = 11= #f9e2af
+palette = 12= #89b4fa
+palette = 13= #cba6f7
+palette = 14= #89dceb
+palette = 15= #b4befe
+
+background = #24273a
+foreground = #cad3f5
+cursor-color = #b7bdf8
+cursor-text = #24273a
+selection-background = #b7bdf8
+selection-foreground = #24273a

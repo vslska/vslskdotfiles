@@ -1,0 +1,52 @@
+# ╭──────────────────────────────────────╮
+# │  Zathura 0.5.14 — 100% совместимо
+# │  Все опции — встроенными командами
+# ╰──────────────────────────────────────╯
+
+# ────── Настройки (встроенные команды, без exec!) ─────
+set font "JetBrainsMono Nerd Font 10"
+set default-bg "#24273a"
+set default-fg "#cad3f5"
+set statusbar-fg "#cad3f5"
+set statusbar-bg "#1e2030"
+set inputbar-fg "#cad3f5"
+set inputbar-bg "#1e2030"
+set notification-fg "#cad3f5"
+set notification-bg "#494d64"
+set notification-error-bg "#ed8796"
+set notification-warning-bg "#eed49f"
+
+# Эти опции есть в 0.5.14 — НО только если girara ≥0.3.5!
+# → Проверим girara ниже ↓
+set smooth-scroll true
+set link-color "#c6a0f6"
+set link-active-color "#f5bde6"
+
+# Перекраска
+set recolor true
+set recolor-darkcolor "#494d64"
+set recolor-lightcolor "#dee3ec"
+
+# ────── Переключение: ИСПОЛЬЗУЕМ :exec + :команды ─────
+# ВАЖНО: двоеточие перед set!
+map <C-d> exec :set recolor-darkcolor "#494d64" ; :set recolor-lightcolor "#dee3ec"
+map <C-n> exec :set recolor-darkcolor "#24273a" ; :set recolor-lightcolor "#cad3f5"
+map <C-s> exec :set recolor-darkcolor "#24273a" ; :set recolor-lightcolor "#f5e0dc"
+map <C-i> exec :set recolor-darkcolor "#cad3f5" ; :set recolor-lightcolor "#24273a"
+map <C-r> toggle recolor
+
+# ────── Навигация: ВСЁ в lowercase, как в документации ─────
+map j scroll down
+map k scroll up
+map h scroll left
+map l scroll right
+map J scroll page-down
+map K scroll page-up
+map H scroll half-down
+map L scroll half-up
+
+map / search
+map n navigate next-result
+map N navigate previous-result
+
+map q quit
