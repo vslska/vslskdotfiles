@@ -5,8 +5,8 @@
 #### Processor: **AMD Ryzen™ AI 9 HX PRO 370 (up to 5.10 GHz, 12c / 24th )**
 #### Memory: **64GB DDR5 5600MT/s**
 #### Graphics: **Integrated AMD Radeon™ 890M (RDNA™ 3.5 architecture)**
-#### Storage: **1TB or 2TB M.2 2280 PCIe Gen4 Performance TLC SSD**
-#### Display: **14" IPS display, options include 1920x1200 (WUXGA)**
+#### Storage: **1TB M.2 2280 PCIe Gen4 Performance TLC SSD**
 ---
 #### OS: **Arch**
 #### WM: **Hyprland**
+#### Shell: **Fish**
