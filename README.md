@@ -1,6 +1,7 @@
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/796fb9fb-f438-4188-a437-b29492768b32" />
 
-# DF
+# DF 
+## Thinkpad P14s Gen 6 AMD
 ### Specs:
 #### Processor: **AMD Ryzen™ AI 9 HX PRO 370 (up to 5.10 GHz, 12c / 24th )**
 #### Memory: **64GB DDR5 5600MT/s**
