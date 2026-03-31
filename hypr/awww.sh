@@ -13,19 +13,10 @@ while true; do
   ln -sf "$WALL" "$BACKGROUND_LINK"
 
   # Меняем обои с анимацией
-  swww img "$WALL" \
-    --transition-type random \
-    --transition-duration 3 \
-    --transition-fps 60
+  awww img "$WALL" \
+    --transition-type fade \
+    --transition-duration 4 \
+    --transition-fps 30
 
   sleep 30
 done
-
-#WALL=$(find "$WALLDIR" -type f \( -iname "*.gif" -o -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \) | shuf -n1)
-
-# Если ничего не найдено — пропускаем итерацию
-#if [ -z "$WALL" ] || [ ! -f "$WALL" ]; then
-#  echo "Нет изображений в $WALLDIR — пропускаем"
-#  sleep 30
-#  continue
-#fi

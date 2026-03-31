@@ -1,0 +1,42 @@
+# ~/.config/yazi/yazi.toml
+[mgr]
+show_hidden = true
+sort_by = "natural"
+show_symlink = true
+
+[opener]
+celluloid = [
+    { run = 'celluloid "$@"', orphan = true, for = "unix" }
+]
+imv = [
+    { run = 'imv "$@"', orphan = true, for = "unix" }
+]
+zathura = [
+    { run = 'zathura "$@"', orphan = true, for = "unix" }
+]
+edit = [
+	{ run = 'vim "$@"', block = true, for = "unix" },
+]
+
+[open]
+prepend_rules = [
+    { mime = "video/*", use = "celluloid" },
+    { mime = "audio/*", use = "celluloid" },
+    { mime = "image/*", use = "imv" },
+    { mime = "application/pdf", use = "zathura" },
+    { mime = "text/*", use = "edit" },
+    { name = "*.txt",  use = "edit" },
+    { name = "*.conf", use = "edit" },
+    { name = "*.cfg",  use = "edit" },
+    { name = "*.sh",   use = "edit" },
+]
+
+[[plugin.prepend_fetchers]]
+id   = "git"
+name = "*"
+run  = "git"
+
+[[plugin.prepend_fetchers]]
+id   = "git"
+name = "*/"
+run  = "git"
