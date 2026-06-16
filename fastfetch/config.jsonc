@@ -24,7 +24,7 @@
     "printRemaining": true,
     "preserveAspectRatio": false,
     "recache": false,
-    "position": "left",
+    "position": "right",
     "chafa": {
       "fgOnly": false,
       "symbols": "block+border+space-wide-inverted"

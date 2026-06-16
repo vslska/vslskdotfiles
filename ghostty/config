@@ -19,6 +19,7 @@ gtk-titlebar-style = native
 gtk-wide-tabs = false
 window-decoration = true
 gtk-custom-css = ~/my/git/dotfiles/ghostty/ui.css
+
 # # Empty values are used to reset config keys to default.
 # key =
 #

@@ -25,18 +25,8 @@ prepend_rules = [
     { mime = "image/*", use = "imv" },
     { mime = "application/pdf", use = "zathura" },
     { mime = "text/*", use = "edit" },
-    { name = "*.txt",  use = "edit" },
-    { name = "*.conf", use = "edit" },
-    { name = "*.cfg",  use = "edit" },
-    { name = "*.sh",   use = "edit" },
+    { url = "*.txt",  use = "edit" },
+    { url = "*.conf", use = "edit" },
+    { url = "*.cfg",  use = "edit" },
+    { url = "*.sh",   use = "edit" },
 ]
-
-[[plugin.prepend_fetchers]]
-id   = "git"
-name = "*"
-run  = "git"
-
-[[plugin.prepend_fetchers]]
-id   = "git"
-name = "*/"
-run  = "git"

@@ -3,7 +3,7 @@
 # : Manager {{{
 
 [mgr]
-cwd = { fg = "#8bd5ca" }
+cwd = { fg = "#8aadf4" }
 
 # Find
 find_keyword  = { fg = "#eed49f", bold = true, italic = true, underline = true }
@@ -162,13 +162,13 @@ title_error = { fg = "#ed8796" }
 
 rules = [
 	# Image
-	{ mime = "image/*", fg = "#8bd5ca" },
+	{ mime = "image/*", fg = "#c6a0f6" },
 	# Media
 	{ mime = "{audio,video}/*", fg = "#eed49f" },
 	# Archive
 	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#f5bde6" },
 	# Document
-	{ mime = "application/{pdf,doc,rtf}", fg = "#a6da95" },
+	{ mime = "application/{pdf,doc,rtf}", fg = "#ed8796" },
 	# Virtual file system
 	{ mime = "vfs/{absent,stale}", fg = "#939ab7" },
 	# Fallback
