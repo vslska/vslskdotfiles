@@ -1,4 +1,5 @@
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/796fb9fb-f438-4188-a437-b29492768b32" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a6bc93b7-e224-4377-8d8b-d2b46f30adb0" />
+
 
 # DF 
 ## Thinkpad P14s Gen 6 AMD
