@@ -52,8 +52,8 @@
     },
     "hyprland/language": {
         "format": "{}",
-        "format-en": "US",
-        "format-ru": "RU"
+        "format-en": "en",
+        "format-ru": "ru"
     },
     "keyboard-state": {
         "numlock": true,
@@ -92,10 +92,10 @@
     },
     "idle_inhibitor": {
         "format": "{icon}",
-        "format-icons": {
+        "format-icons": { 
             "activated": "",
             "deactivated": ""
-        }
+	}
     },
     "tray": {
         // "icon-size": 21,
@@ -107,18 +107,18 @@
         "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
-        "format": "{usage}% ",
+        "format": "{usage}% ",
         "tooltip": false
     },
     "memory": {
-        "format": "{}% "
+        "format": "{}% "
     },
     "temperature": {
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
         "critical-threshold": 80,
         "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", ""]
+        "format-icons": ["", "", ""]
     },
     "backlight": {
         // "device": "acpi_video1",
@@ -132,10 +132,10 @@
         },
         "format": "{capacity}% {icon}",
         "format-full": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
+        "format-charging": "{capacity}% 󰂄",
+        "format-plugged": "{capacity}% 󰚥",
         "format-alt": "{time} {icon}",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": ["󰂎", "󰁼", "󰁾", "󰂀", "󰁹"]
     },
     "battery#bat2": {
         "bat": "BAT2"
@@ -152,11 +152,11 @@
         }
     },
     "network": {
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
+        "format-wifi": "{essid} ({signalStrength}%) 󰖩",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "format-linked": "{ifname} (No IP) 󰈀",
+        "format-disconnected": "Disconnected 󰌙",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
@@ -167,9 +167,9 @@
         "format-source": "{volume}% ",
         "format-source-muted": "",
         "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
+            "headphone": "󰋋",
+            "hands-free": "󰋎",
+            "headset": "󰋎",
             "phone": "",
             "portable": "",
             "car": "",

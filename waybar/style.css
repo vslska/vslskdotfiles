@@ -197,7 +197,7 @@ label:focus {
 }
 
 #pulseaudio:hover {
-    background-color: @yellow;
+    background-color: @peach;
     color: @crust;
 }
 
