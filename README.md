@@ -1,4 +1,4 @@
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a6bc93b7-e224-4377-8d8b-d2b46f30adb0" />
+<img width="1900" height="1200" alt="image" src="https://github.com/user-attachments/assets/690f2832-d85a-4143-b35a-ee1aea98a48f" />
 
 # 💻 Arch Linux + Hyprland Dotfiles (ThinkPad P14s Workspace)
 
