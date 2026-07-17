@@ -1,8 +1,8 @@
 <img width="1900" height="1200" alt="image" src="https://github.com/user-attachments/assets/690f2832-d85a-4143-b35a-ee1aea98a48f" />
 
-# 💻 Arch Linux + Hyprland Dotfiles (ThinkPad P14s Workspace)
+# 💻 Arch Linux + Hiri Dotfiles (ThinkPad P14s Workspace)
 
-Welcome to my personal, highly customized, and optimized Linux development ecosystem. This repository contains my declarative configuration files (dotfiles) for a rock-solid, fast, and minimal environment built around **Arch Linux** and the **Hyprland** WM.
+Welcome to my personal, highly customized, and optimized Linux development ecosystem. This repository contains my declarative configuration files (dotfiles) for a rock-solid, fast, and minimal environment built around **Arch Linux** and the **Niri** WM.
 
 ## 🚀 Hardware & System Architecture
 * **Machine:** Lenovo ThinkPad P14s Gen 6 AMD
@@ -13,10 +13,9 @@ Welcome to my personal, highly customized, and optimized Linux development ecosy
 * **OS:** Arch Linux (Rolling Release)
 
 ## 🛠️ Core Environment Stack
-* **Window Manager / Compositor:** `Hyprland` (Wayland)
-* **Shell:** `Fish Shell` (with custom prompts and aliases)
-* **Application Launcher / Menu:** `Walker` (Wayland-native extensible runner)
-* **Status Bar:** `Waybar` (Highly customized with system metrics widgets)
+* **Window Manager / Compositor:** `Niri` (Wayland)
+* **Terminal shell:** `Fish Shell` (with custom prompts and aliases)
+* **Desktop shell:** `Noctalia Shell` (A beautiful, minimal desktop shellfor Wayland)
 * **Terminal Emulator:** `Ghostty` (Blazing fast, GPU-accelerated)
 * **File Manager:** `Yazi` (Blazing fast terminal file manager written in Rust)
 * **Document Viewer:** `Zathura` (Vim-like CLI document viewer)
@@ -24,8 +23,8 @@ Welcome to my personal, highly customized, and optimized Linux development ecosy
 * **Theming Engine:** `Kvantum`, `GTK3`, `GTK4` (Consistent dark theme configuration)
 
 ## 📁 Repository Structure Breakdown
-* `/hypr` — Tiling workspace behavior, keybindings, window rules, and monitor management.
-* `/waybar` — Modular bars configurations, custom style-sheets (CSS), and polling intervals.
+* `/niri` — Tiling workspace behavior, keybindings, window rules, and monitor management.
+* `/noctalia` — Save preset config
 * `/walker` — Adaptive application search and system commands configuration.
 * `/yazi` — Vim-like keybindings, file previews, and custom plugin workflows.
 * `/fish` — Functions, system variables, and automated shell initializations.
