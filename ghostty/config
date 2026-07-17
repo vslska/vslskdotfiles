@@ -22,6 +22,9 @@ gtk-custom-css = ~/my/git/dotfiles/ghostty/ui.css
 
 # # Empty values are used to reset config keys to default.
 # key =
+#background-opacity = 0.85
+#background-blur = true
+
 #
 # # Some config options have unique syntaxes for their value,
 # # which is explained in the docs for that config option.
