@@ -1,4 +1,5 @@
-<img width="1904" height="1170" alt="image" src="https://github.com/user-attachments/assets/b0c3770d-732f-43a2-b15a-e4fa6f6c9ff0" />
+![Uploading image.png…]()
+
 
 # 💻 Arch Linux + Niri Dotfiles (ThinkPad P14s Workspace)
 
