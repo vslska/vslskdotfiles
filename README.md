@@ -1,6 +1,6 @@
 <img width="1900" height="1200" alt="image" src="https://github.com/user-attachments/assets/690f2832-d85a-4143-b35a-ee1aea98a48f" />
 
-# 💻 Arch Linux + Hiri Dotfiles (ThinkPad P14s Workspace)
+# 💻 Arch Linux + Niri Dotfiles (ThinkPad P14s Workspace)
 
 Welcome to my personal, highly customized, and optimized Linux development ecosystem. This repository contains my declarative configuration files (dotfiles) for a rock-solid, fast, and minimal environment built around **Arch Linux** and the **Niri** WM.
 
@@ -23,7 +23,7 @@ Welcome to my personal, highly customized, and optimized Linux development ecosy
 * **Theming Engine:** `Kvantum`, `GTK3`, `GTK4` (Consistent dark theme configuration)
 
 ## 📁 Repository Structure Breakdown
-* `/niri` — Tiling workspace behavior, keybindings, window rules, and monitor management.
+* `/niri` — Config keybindings, window rules, monitor management and other.
 * `/noctalia` — Save preset config
 * `/walker` — Adaptive application search and system commands configuration.
 * `/yazi` — Vim-like keybindings, file previews, and custom plugin workflows.
