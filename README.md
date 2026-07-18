@@ -2,7 +2,7 @@
 
 
 
-# 💻 Arch Linux + Niri Dotfiles (ThinkPad P14s Workspace)
+# 💻 Arch Linux + Niri + Noctalia (ThinkPad P14s Workspace)
 
 Welcome to my personal, highly customized, and optimized Linux development ecosystem. This repository contains my declarative configuration files (dotfiles) for a rock-solid, fast, and minimal environment built around **Arch Linux** and the **Niri** WM.
 
