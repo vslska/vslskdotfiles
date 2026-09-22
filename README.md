@@ -22,12 +22,6 @@ Welcome to my personal, highly customized, and optimized Linux development ecosy
 * **System Telemetry:** `Btop` & `Fastfetch`
 * **Theming Engine:** `Kvantum`, `GTK3`, `GTK4` (Consistent dark theme configuration)
 
-## Repository Structure Breakdown
-* `/niri` — Config keybindings, window rules, monitor management and other.
-* `/noctalia` — Save preset config
-* `/walker` — Adaptive application search and system commands configuration.
-* `/yazi` — Vim-like keybindings, file previews, and custom plugin workflows.
-* `/fish` — Functions, system variables, and automated shell initializations.
 
 ---
 *Crafted and maintained with passion by [@vslska](https://github.com/vslska).*
