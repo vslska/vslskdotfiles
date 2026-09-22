@@ -2,11 +2,10 @@
 
 
 
-<<<<<<< HEAD
-# 💻 Arch Linux + Niri + Noctalia (ThinkPad P14s Workspace)
+<
+# Arch Linux + Niri + Noctalia (ThinkPad P14s Workspace)
 =======
 # Arch Linux + Niri Dotfiles (ThinkPad P14s Workspace)
->>>>>>> 804cc10 (upd)
 
 Welcome to my personal, highly customized, and optimized Linux development ecosystem. This repository contains my declarative configuration files (dotfiles) for a rock-solid, fast, and minimal environment built around **Arch Linux** and the **Niri** WM.
 
@@ -22,7 +21,7 @@ Welcome to my personal, highly customized, and optimized Linux development ecosy
 * **Window Manager / Compositor:** `Niri` (Wayland)
 * **Terminal shell:** `Fish Shell` (with custom prompts and aliases)
 * **Desktop shell:** `Noctalia Shell` (A beautiful, minimal desktop shellfor Wayland)
-* **Terminal Emulator:** `Ghostty` (Blazing fast, GPU-accelerated)
+* **Terminal Emulator:** `Kitty` (the fast, GPU based terminal)
 * **File Manager:** `Yazi` (Blazing fast terminal file manager written in Rust)
 * **Document Viewer:** `Zathura` (Vim-like CLI document viewer)
 * **System Telemetry:** `Btop` & `Fastfetch`
