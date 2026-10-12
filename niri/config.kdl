@@ -85,7 +85,7 @@ output "eDP-1" {
     // for the resolution.
     // If the mode is omitted altogether or is invalid, niri will pick one automatically.
     // Run `niri msg outputs` while inside a niri instance to list all outputs and their modes.
-    mode "1920x1080@60.02"
+    mode "1920x1200@60.02"
 
     // You can use integer or fractional scale, for example use 1.5 for 150% scale.
     scale 1.1
@@ -124,8 +124,8 @@ layout {
     // - "always", the focused column will always be centered.
     // - "on-overflow", focusing a column will center it if it doesn't fit
     //   together with the previously focused column.
-    center-focused-column "never"
-
+    center-focused-column "on-overflow"
+    //always-center-single-column
     // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
     preset-column-widths {
         // Proportion sets the width as a fraction of the output width, taking gaps into account.
@@ -135,7 +135,7 @@ layout {
         proportion 0.5
         proportion 0.66667
 
-        // Fixed sets the width in logical pixels exactly.
+       // Fixed sets the width in logical pixels exactly.
         // fixed 1920
     }
 
@@ -207,7 +207,7 @@ layout {
         inactive-color "#5b6078"
 
         // Color of the border around windows that request your attention.
-        urgent-color "#9b0000"
+        urgent-color "#ed8796"
 
         // Gradients can use a few different interpolation color spaces.
         // For example, this is a pastel rainbow gradient via in="oklch longer hue".
@@ -254,6 +254,13 @@ layout {
         color "#0007"
     }
 
+    //tab-indicator
+    //Controls the appearance of the tab indicator that appears next to columns in tabbed display mode.
+    tab-indicator {
+	width 10
+	length total-proportion=0.7
+	position "bottom"
+    }
     // Struts shrink the area occupied by windows, similarly to layer-shell panels.
     // You can think of them as a kind of outer gaps. They are set in logical pixels.
     // Left and right struts will cause the next window to the side to always be visible.
@@ -262,8 +269,8 @@ layout {
     struts {
         left 0
         right 0
-        top 6
-        bottom 0
+        top 0
+        bottom 2
     }
 }
 
@@ -308,24 +315,21 @@ animations {
 
     // Slow down all animations by this factor. Values below 1 speed them up instead.
     slowdown  0.5
-  // Резкое открытие окон
+    
     window-open {
         duration-ms 100
         curve "ease-out-expo"
     }
 
-    // Резкое закрытие окон
     window-close {
         duration-ms 100
         curve "ease-out-quad"
     }
 
-    // Убираем кисель при прокрутке ленты окон (влево-вправо)
     horizontal-view-movement {
         spring damping-ratio=1.2 stiffness=1500 epsilon=0.0001
     }
 
-    // Быстрое переключение рабочих столов (вверх-вниз)
     workspace-switch {
         spring damping-ratio=1.2 stiffness=1500 epsilon=0.0001
     }
@@ -334,17 +338,67 @@ animations {
 // Find more information on the wiki:
 // https://niri-wm.github.io/niri/Configuration:-Window-Rules
 
+//Inactive window
 window-rule {
     match is-active=false
-    opacity 0.85
+    opacity 0.83
     background-effect {
-        blur false       // Включает размытие того, что находится ЗА окном
-        xray false      // Выключите xray, чтобы видеть именно обои/другие окна, а не только обои
+        blur false 
+        xray false
     }
     draw-border-with-background false
 }
+
+//Active window
 window-rule {
-    match app-id="^(mpv|nekobox)$"
+    match is-active=true
+    opacity 0.85
+    background-effect {
+        blur true       
+        xray false      
+    }
+    draw-border-with-background false
+}
+
+//Firefox
+window-rule {
+    match app-id="^(firefox-developer-edition)$" is-active=true
+    opacity 0.99
+}
+
+//Obsidian
+window-rule {
+    match app-id="^(md.obsidian.Obsidian)$" is-active=false
+    opacity 0.9
+    background-effect {
+	blur true
+    }
+}    
+window-rule {
+    match app-id="^(md.obsidian.Obsidian)$" is-active=true
+    opacity 0.95
+    background-effect {
+        blur true
+    }
+}
+
+//mpv
+window-rule {
+    match app-id="^(mpv)$"
+    opacity 1.0
+    background-effect {	    
+        blur false
+    }
+}
+//imv
+window-rule {
+    match app-id="^(imv)$"
+    opacity 1.0
+}
+
+//floating
+window-rule {
+    match app-id="^(nekobox|trueconf)$"
     open-floating true
 }
 

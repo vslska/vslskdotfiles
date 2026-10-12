@@ -1,9 +1,7 @@
-[[plugin.deps]]
-use = "yazi-rs/plugins:smart-filter"
-rev = "19dc890"
-hash = "bcda8eeb3f4013bae156aecabfc745e8"
+[plugin]
+deps = []
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-macchiato"
-rev = "9e053d0"
-hash = "2f60298d6c26b6d388c8091a9389fa8f"
+rev = "1183892"
+hash = "5b1bf96d1cba26376087c37de993c517"

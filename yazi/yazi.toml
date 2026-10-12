@@ -6,16 +6,16 @@ show_symlink = true
 
 [opener]
 celluloid = [
-    { run = 'celluloid "$@"', orphan = true, for = "unix" }
+    { run = "celluloid  %s", orphan = true, for = "unix" }
 ]
 imv = [
-    { run = 'imv "$@"', orphan = true, for = "unix" }
+    { run = "imv  %s", orphan = true, for = "unix" }
 ]
 zathura = [
-    { run = 'zathura "$@"', orphan = true, for = "unix" }
+    { run = "zathura %s", orphan = true, for = "unix" }
 ]
 edit = [
-	{ run = 'vim "$@"', block = true, for = "unix" },
+	{ run = "vim  %s", block = true, for = "unix" },
 ]
 
 [open]
