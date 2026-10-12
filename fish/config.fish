@@ -52,7 +52,8 @@ if status is-interactive
             alias lt="tree -a -L 2"
         end
     end
-
+    # --- zoxide ---
+    abbr -a cd 'z'
     # --- УТИЛИТА ПОМОДОРО ---
     abbr -a pomo 'pomo start -d 50m -p 2 -t my-project "концентрация"'
 
