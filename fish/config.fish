@@ -54,6 +54,9 @@ if status is-interactive
     end
     # --- zoxide ---
     abbr -a cd 'z'
+    # --- nvim ---
+    abbr -a nv 'nvim'
+    abbr -a vim 'nvim'
     # --- УТИЛИТА ПОМОДОРО ---
     abbr -a pomo 'pomo start -d 50m -p 2 -t my-project "концентрация"'
 

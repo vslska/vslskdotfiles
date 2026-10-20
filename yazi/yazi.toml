@@ -15,7 +15,7 @@ zathura = [
     { run = "zathura %s", orphan = true, for = "unix" }
 ]
 edit = [
-	{ run = "vim  %s", block = true, for = "unix" },
+	{ run = "nvim  %s", block = true, for = "unix" },
 ]
 
 [open]
