@@ -390,9 +390,16 @@ window-rule {
         blur false
     }
 }
+
 //imv
 window-rule {
     match app-id="^(imv)$"
+    opacity 1.0
+}
+
+// gimp
+window-rule {
+    match app-id="^(gimp)$"
     opacity 1.0
 }
 
