@@ -47,6 +47,8 @@ input {
         // natural-scroll
         accel-speed 0.0
         accel-profile "flat"
+	// left-handed
+	left-handed
       //  scroll-method "no-scroll"
     }
 
@@ -112,6 +114,7 @@ output "HDMI-A-1" {
     transform "normal"
     variable-refresh-rate
 }
+
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://niri-wm.github.io/niri/Configuration:-Layout
@@ -201,7 +204,6 @@ layout {
         // The settings are the same as for the focus ring.
         // If you enable the border, you probably want to disable the focus ring.
         //off
-
         width 3
         active-gradient from="#b7bdf8" to="#f5bde6"
         inactive-color "#5b6078"
@@ -257,10 +259,12 @@ layout {
     //tab-indicator
     //Controls the appearance of the tab indicator that appears next to columns in tabbed display mode.
     tab-indicator {
-	width 10
+	width 9
 	length total-proportion=0.7
 	position "bottom"
+	active-color "#a6da95"
     }
+
     // Struts shrink the area occupied by windows, similarly to layer-shell panels.
     // You can think of them as a kind of outer gaps. They are set in logical pixels.
     // Left and right struts will cause the next window to the side to always be visible.
@@ -272,6 +276,25 @@ layout {
         top 0
         bottom 2
     }
+    // color background 
+    background-color "#24273a"
+}
+
+//recent-windows
+recent-windows {
+     highlight {
+	active-color "#b4befe"
+	padding 10
+	corner-radius 10
+
+     }
+}
+
+
+// overview 
+overview {
+    zoom 0.6
+    backdrop-color "#181926"
 }
 
 // Add lines like this to spawn processes at startup.

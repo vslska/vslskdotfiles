@@ -12,16 +12,12 @@ return {
     opts = {
       window = {
         position = "left",
-        width = 30,
+        width = 20,
       },
       filesystem = {
-        cwd = "~/my/git",
-        bind_to_cwd = false,
         follow_current_file = {
           enabled = true,
         },
-        hijack_netrw = true,
-        
         -- Скрытые --
         filtered_items = {
           visible = true,           -- Скрытые файлы видимыми по умолчанию
@@ -34,11 +30,10 @@ return {
 
     config = function(_, opts)
       require("neo-tree").setup(opts)
-      
       -- Исправленный автостарт
       vim.api.nvim_create_autocmd("VimEnter", {
         callback = function()
-          vim.schedule(function()
+         vim.schedule(function()
             vim.cmd("Neotree show")
           end)
         end,
