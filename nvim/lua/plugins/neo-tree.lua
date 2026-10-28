@@ -27,18 +27,5 @@ return {
         },
       },
     },
-
-    config = function(_, opts)
-      require("neo-tree").setup(opts)
-      -- Исправленный автостарт
-      vim.api.nvim_create_autocmd("VimEnter", {
-        callback = function()
-         vim.schedule(function()
-            vim.cmd("Neotree show")
-          end)
-        end,
-      })
-    end,
-  }
+},
 }
-

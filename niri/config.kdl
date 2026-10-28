@@ -47,8 +47,7 @@ input {
         // natural-scroll
         accel-speed 0.0
         accel-profile "flat"
-	// left-handed
-	left-handed
+	//left-handed
       //  scroll-method "no-scroll"
     }
 
@@ -90,7 +89,7 @@ output "eDP-1" {
     mode "1920x1200@60.02"
 
     // You can use integer or fractional scale, for example use 1.5 for 150% scale.
-    scale 1.1
+    scale 1.2
 
     // Transform allows to rotate the output counter-clockwise, valid values are:
     // normal, 90, 180, 270, flipped, flipped-90, flipped-180 and flipped-270.
@@ -271,10 +270,10 @@ layout {
     // Top and bottom struts will simply add outer gaps in addition to the area occupied by
     // layer-shell panels and regular gaps.
     struts {
-        left 0
-        right 0
-        top 0
-        bottom 2
+        left -2
+        right -2
+        top -1
+        bottom 0
     }
     // color background 
     background-color "#24273a"
