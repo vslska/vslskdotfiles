@@ -7,25 +7,5 @@ return {
       "MunifTanjim/nui.nvim",
       "nvim-tree/nvim-web-devicons",
     },
-    lazy = false,
-
-    opts = {
-      window = {
-        position = "left",
-        width = 20,
-      },
-      filesystem = {
-        follow_current_file = {
-          enabled = true,
-        },
-        -- Скрытые --
-        filtered_items = {
-          visible = true,           -- Скрытые файлы видимыми по умолчанию
-          show_hidden_count = true, -- Счетчик скрытых
-          hide_dotfiles = false,    -- НЕ скрывать файлы, начинающиеся с точки (.git, .env и т.д.)
-          hide_gitignored = false,  -- НЕ скрывать файлы из .gitignore
-        },
-      },
-    },
-},
+  },
 }

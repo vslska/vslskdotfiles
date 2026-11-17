@@ -30,11 +30,57 @@ require("neo-tree").setup({
   enable_git_status = true,
   window = {
     position = "left",
-    width = 30,
+    width = 25,
     mapping_options = {
       noremap = true,
       nowait = true,
     },
   },
-
+  filesystem = {
+    follow_current_file = {
+      enable = true,
+    },
+    filtered_items = {
+      visible = true,                    -- показать скрытые
+      hide_gitignore = false,
+      hide_dotfiles = false,
+    },
+  },
 })
+
+----------------------------------
+---------------- lsp -------------
+
+vim.lsp.config('*', {
+  root_markers = { '.git' }
+})
+
+-- python --
+vim.lsp.config('pyright', {
+  cmd = { 'pyright-langserver', '--stdio' },
+  filetypes = { 'python' },
+})
+vim.lsp.enable('pyright')
+
+-- lua --
+vim.lsp.config('lua_ls', {
+  cmd = { 'lua-language-server', '--stdio' },
+  filetypes = {'lua'},
+})
+vim.lsp.enable('lua_ls')
+
+-- yaml --
+vim.lsp.config('yamlls', {
+  cmd = { 'yaml-language-server', '--stdio' },
+  filetypes =  {'yaml'},
+})
+vim.lsp.enable('yamlls')
+
+-- tofu --
+vim.lsp.config['tofu_ls'] = {
+  cmd = { 'tofu-ls', 'serve' },
+  filetypes = { 'terraform', 'terraform-vars', 'tf' },
+  root_markers = {'.terraform', '.git'},
+}
+
+vim.lsp.enable('tofu_ls')

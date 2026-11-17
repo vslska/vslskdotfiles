@@ -5,8 +5,11 @@ sort_by = "natural"
 show_symlink = true
 
 [opener]
-celluloid = [
-    { run = "celluloid  %s", orphan = true, for = "unix" }
+mpv_audio = [
+    { run = "mpv  %s", block = true, for = "unix" }
+]
+mpv_video = [
+    { run = "mpv  %s", orphan = true, for = "unix" }
 ]
 imv = [
     { run = "imv  %s", orphan = true, for = "unix" }
@@ -20,8 +23,8 @@ edit = [
 
 [open]
 prepend_rules = [
-    { mime = "video/*", use = "celluloid" },
-    { mime = "audio/*", use = "celluloid" },
+    { mime = "video/*", use = "mpv_video" },
+    { mime = "audio/*", use = "mpv_audio" },
     { mime = "image/*", use = "imv" },
     { mime = "application/pdf", use = "zathura" },
     { mime = "text/*", use = "edit" },

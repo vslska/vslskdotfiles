@@ -1,11 +1,33 @@
 if status is-interactive
 
-    # --- ТЕМА ОФОРМЛЕНИЯ ---
-    fish_config theme choose "Catppuccin Macchiato"
+    ####################### Init #################################
+    # --------- Fzf ---------------------
+    if type -q fzf
+        fzf --fish | source
+    end
+    
+    fzf_configure_bindings --directory=ctrl-f --processes=ctrl-alt-p --git_log=ctrl-alt-g --git_status=ctrl-g
 
-    # --- ЗАЩИТА АВТОДОПОЛНЕНИЯ KUBECTL ---
-    # Перенаправляем вывод в kubecolor, 
-    # но отдаем чистый бинарник, если запрос идет от скрипта автодополнения.
+    # ---------- Atuin ------------------
+    if type -q atuin
+        atuin init fish | source
+    end
+
+    # --------- zoxide ------------------
+    zoxide init fish | source
+
+    ###################### Function #############################
+    # ------------ yazi ----------------------------------------
+    function y
+        set tmp (mktemp -t "yazi-cwd.XXXXXX")
+        command yazi $argv --cwd-file="$tmp"
+        if read -z cwd < "$tmp"; and [ "$cwd" != "$PWD" ]; and test -d "$cwd"
+            builtin cd -- "$cwd"
+        end
+        rm -f -- "$tmp"
+    end
+
+    # --------- ЗАЩИТА АВТОДОПОЛНЕНИЯ KUBECTL ------------------------
     function kubectl
         if string match -q "*__kubecompletions*" (status stack-trace)
             command kubectl $argv
@@ -16,79 +38,58 @@ if status is-interactive
         end
     end
 
-    # --- ПОИСК И ИСТОРИЯ (fzf + Atuin) ---
-    # fzf инициализируется первым
-    if type -q fzf
-        fzf --fish | source
-    end
-
-    # Atuin инициализируется вторым, чтобы гарантированно перехватить Ctrl+R и стрелку Вверх
-    if type -q atuin
-        atuin init fish | source
-    end
-
-    # --- ОБЩИЕ АЛИАСЫ, EZA, TREE, RIPGREP И BAT ---
+    ##################### aliases #################################
     alias cl="clear"
-    
-    # Замена cat на bat для красивого вывода файлов с подсветкой
+
+    # ------------ bat --------------------------------------------
     if type -q bat
         alias cat="bat"
     end
 
-    # Замена grep на ripgrep (rg) для сверхбыстрого поиска
+    # -------------- ripgrep --------------------------------------
     if type -q rg
         alias grep="rg --smart-case"
     end
-    # Замена ls и lt на eza 
+
+    #-------------- EZA -------------------------------------------
     if type -q eza
         alias ls="eza --icons=always --color=always --group-directories-first"
         alias ll="eza -lah --icons=always --color=always --group-directories-first --git --header"
         alias lt="eza --tree --level=2 -a --icons=always --color=always --group-directories-first"
         alias tree="eza --tree --level=4 -a --icons=always --color=always --group-directories-first"
     else
-        # Запасной вариант без eza
         alias ll="ls -lah"
         if type -q tree
             alias lt="tree -a -L 2"
         end
     end
-    # --- zoxide ---
+
+    # ------------ zoxide -----------------------------------------
     abbr -a cd 'z'
+
     # --- nvim ---
     abbr -a nv 'nvim'
     abbr -a vim 'nvim'
-    # --- УТИЛИТА ПОМОДОРО ---
-    abbr -a pomo 'pomo start -d 50m -p 2 -t my-project "концентрация"'
 
-    # --- СОКРАЩЕНИЯ KUBECTL & KUBCOLOR ---
-    # Разворачиваем сокращения в "kubectl", чтобы плагин автодополнения (fish-kubecompletions)
-    # всегда понимал контекст и выдавал подсказки для подов/ресурсов.
+    # ---------- pomodoro -----------------------------------------
+    abbr -a pomo 'pomo start -d 50m -p 2 "концентрация"'
+
+    # ---------- kubectl / kubecolor --------------------------------
+    abbr -a k "kubectl"
+    abbr -a kapp "kubectl apply"
+    abbr -a kget "kubectl get"
+    abbr -a kdes "kubectl describe"
+
+    # автодополнения: kubectl определён как функция → complete работает
+    complete -c kubectl -w kubectl
     if type -q kubecolor
-        abbr -a k "kubectl"
-        abbr -a kubapp "kubectl apply"
-        abbr -a kubget "kubectl get"
-        abbr -a kubdes "kubectl describe"
-        
-        # На всякий случай копируем логику автодополнения для самого слова kubecolor
         complete -c kubecolor -w kubectl
-    else
-        # Запасной вариант, если kubecolor не установлен в системе
-        abbr -a k "kubectl"
-        abbr -a kubapp "kubectl apply"
-        abbr -a kubget "kubectl get"
-        abbr -a kubdes "kubectl describe"
     end
-
-    # Принудительно связываем букву 'k' с автодополнением от kubectl, 
-    # чтобы Tab работал мгновенно (еще до раскрытия аббревиатуры пробелом)
-    complete -c k -w kubectl
 
 end
 
-# --- ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ ОКРУЖЕНИЯ И ПУТИ ---
-set -g CDPATH . /home/vslska/my
-
-# Тема для FZF (Catppuccin Macchiato)
+## ====================== Themes ====================================
+# -------- FZF (Catppuccin Macchiato) -----
 set -gx FZF_DEFAULT_OPTS "\
 --color=bg+:#363A4F,bg:#24273A,spinner:#F4DBD6,hl:#ED8796 \
 --color=fg:#CAD3F5,header:#ED8796,info:#C6A0F6,pointer:#F4DBD6 \
@@ -96,17 +97,37 @@ set -gx FZF_DEFAULT_OPTS "\
 --color=selected-bg:#494D64 \
 --color=border:#6E738D,label:#CAD3F5"
 
-# Тема для BAT (Catppuccin Macchiato)
+# -------- BAT (Catppuccin Macchiato) --------
 set -gx BAT_THEME "Catppuccin Macchiato"
 
-# --- ФУНКЦИЯ ДЛЯ ФАЙЛОВОГО МЕНЕДЖЕРА YAZI ---
-function y
-    set tmp (mktemp -t "yazi-cwd.XXXXXX")
-    command yazi $argv --cwd-file="$tmp"
-    if read -z cwd < "$tmp"; and [ "$cwd" != "$PWD" ]; and test -d "$cwd"
-        builtin cd -- "$cwd"
-    end
-    rm -f -- "$tmp"
-end
-
-zoxide init fish | source
+# -------- Fish theme: Catppuccin Macchiato --------
+set -g fish_color_autosuggestion 6e738d
+set -g fish_color_cancel ed8796
+set -g fish_color_command 8aadf4
+set -g fish_color_comment 8087a2
+set -g fish_color_cwd eed49f
+set -g fish_color_cwd_root
+set -g fish_color_end f5a97f
+set -g fish_color_error ed8796
+set -g fish_color_escape ee99a0
+set -g fish_color_gray 6e738d
+set -g fish_color_history_current
+set -g fish_color_host 8aadf4
+set -g fish_color_host_remote a6da95
+set -g fish_color_keyword c6a0f6
+set -g fish_color_normal cad3f5
+set -g fish_color_operator f5bde6
+set -g fish_color_option a6da95
+set -g fish_color_param f0c6c6
+set -g fish_color_quote a6da95
+set -g fish_color_redirection f5bde6
+set -g fish_color_search_match --background=363a4f
+set -g fish_color_selection --background=363a4f
+set -g fish_color_status ed8796
+set -g fish_color_user 8bd5ca
+set -g fish_color_valid_path
+set -g fish_pager_color_completion cad3f5
+set -g fish_pager_color_description 6e738d
+set -g fish_pager_color_prefix f5bde6
+set -g fish_pager_color_progress 6e738d
+set -g fish_pager_color_selected_background --background=363a4f
