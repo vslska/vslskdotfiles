@@ -14,21 +14,11 @@ Welcome to my personal, highly customized, and optimized Linux development ecosy
 * **OS:** Arch Linux (Rolling Release)
 
 ## Core Environment Stack
-* **Window Manager / Compositor:** `Niri` (Wayland)
-* **Terminal shell:** `Fish Shell` (with custom prompts and aliases)
-* **Desktop shell:** `Noctalia Shell` (A beautiful, minimal desktop shellfor Wayland)
-* **Terminal Emulator:** `Kitty` (the fast, GPU based terminal)
-* **File Manager:** `Yazi` (Blazing fast terminal file manager written in Rust)
-* **Document Viewer:** `Zathura` (Vim-like CLI document viewer)
-* **System Telemetry:** `Btop` & `Fastfetch`
-* **Theming Engine:** `Kvantum`, `GTK3`, `GTK4` (Consistent dark theme configuration)
-
-## Repository Structure Breakdown
-* `/niri` — Config keybindings, window rules, monitor management and other.
-* `/noctalia` — Save preset config
-* `/walker` — Adaptive application search and system commands configuration.
-* `/yazi` — Vim-like keybindings, file previews, and custom plugin workflows.
-* `/fish` — Functions, system variables, and automated shell initializations.
+* **Window Manager / Compositor:** `Niri`
+* **Terminal shell:** `Fish Shell`
+* **Desktop shell:** `Noctalia Shell`
+* **Terminal Emulator:** `Kitty`
+* **File Manager:** `Yazi`
 
 ---
 *Crafted and maintained with passion by [@vslska](https://github.com/vslska).*
