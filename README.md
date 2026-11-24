@@ -14,7 +14,7 @@ Welcome to my personal, highly customized, and optimized Linux development ecosy
 * **OS:** Arch Linux (Rolling Release)
 
 ## Core Environment Stack
-* **Window Manager / Compositor:** `Niri`
+* **WM** `Niri`
 * **Terminal shell:** `Fish Shell`
 * **Desktop shell:** `Noctalia Shell`
 * **Terminal Emulator:** `Kitty`
