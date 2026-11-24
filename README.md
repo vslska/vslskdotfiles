@@ -1,4 +1,5 @@
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/bb1495e4-dbc9-43fb-82f6-4b197a378980" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d168e237-f912-484f-bd77-14845fe1b9c0" />
+
 
 
 # Arch Linux + Niri Dotfiles (ThinkPad P14s Workspace)
