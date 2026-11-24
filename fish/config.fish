@@ -57,11 +57,6 @@ if status is-interactive
         alias ll="eza -lah --icons=always --color=always --group-directories-first --git --header"
         alias lt="eza --tree --level=2 -a --icons=always --color=always --group-directories-first"
         alias tree="eza --tree --level=4 -a --icons=always --color=always --group-directories-first"
-    else
-        alias ll="ls -lah"
-        if type -q tree
-            alias lt="tree -a -L 2"
-        end
     end
 
     # ------------ zoxide -----------------------------------------

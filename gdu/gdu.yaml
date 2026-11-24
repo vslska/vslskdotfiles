@@ -1,0 +1,15 @@
+style:
+  use-old-size-bar: true
+  footer:
+    text-color: "#b7bdf8"
+    background-color: "#24273a"
+    number-color: "#f9e2af"
+  selected-row:
+    text-color: "#a6e3a1"
+    background-color: "#1e2030"
+  result-row:
+    number-color: "#f0c6c6"
+    directory-color: "#89b4fa"
+  header:
+    text-color: "#b7bdf8"
+    background-color: "#24273a"

@@ -172,3 +172,7 @@ color = "#A6DA95"
 [widget.workspaces]
 max_label_chars = 3
 show_labels = false
+
+[theme.templates.user.luciole]
+input_path  = "/usr/share/luciole/templates/colors.toml"
+output_path = "$XDG_CONFIG_HOME/luciole/colors.toml"

@@ -292,7 +292,7 @@ recent-windows {
 
 // overview 
 overview {
-    zoom 0.6
+    zoom 1
     backdrop-color "#181926"
 }
 

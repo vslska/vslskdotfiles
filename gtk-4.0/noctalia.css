@@ -7,8 +7,8 @@
 /* App-scoped CSS of enabled community GTK extensions; Noctalia maintains this file. */
 @import url("noctalia-extensions.css");
 
-@define-color accent_color #a6da95;
-@define-color accent_bg_color #a6da95;
+@define-color accent_color #8aadf4;
+@define-color accent_bg_color #8aadf4;
 @define-color accent_fg_color #24273a;
 
 @define-color destructive_bg_color #ed8796;
@@ -60,8 +60,8 @@
 @define-color theme_unfocused_selected_fg_color @accent_fg_color;
 
 :root {
-    --accent-color: #a6da95;
-    --accent-bg-color: #a6da95; 
+    --accent-color: #8aadf4;
+    --accent-bg-color: #8aadf4; 
     --accent-fg-color: #24273a;
 
     --destructive-bg-color: #ed8796;
@@ -98,13 +98,13 @@
     --sidebar-backdrop-color: @window_bg_color;
     --sidebar-border-color: @window_bg_color;
 
-    --warning-bg-color: #424f71;
-    --warning-fg-color: #a3c2ff;
-    --warning-color: #8aadf4;
+    --warning-bg-color: #544b72;
+    --warning-fg-color: #d5b5ff;
+    --warning-color: #c6a0f6;
 
-    --success-color: #8bd5ca;
-    --success-bg-color: #425b65;
-    --success-fg-color: #90dbcf;
+    --success-color: #b7bdf8;
+    --success-bg-color: #505473;
+    --success-fg-color: #c1c7ff;
     
     --shade-color: rgba(0, 0, 0, 0.36);
 }

@@ -154,15 +154,9 @@
 
     },
     {
-      "type": "uptime",
-      "key": " Uptime",
-       "keyColor": "green"
-
-    },
-    {
       "type": "packages",
-      "key": "󰏖 Packages",
-      "keyColor": "#f0c6c6",
+      "key": "󰏖 Pack",
+      "keyColor": "#eed49f",
 
       "disabled": [
         "apk"
@@ -172,57 +166,24 @@
     {
       "type": "shell",
       "key": " Shell",
-      "keyColor": "#b7bdf8"
-
-    },
-    {
-      "type": "display",
-      "key": "󰍹 Display",
-       "keyColor": "#91d7e3",
-      "compactType": "none",
-      "preciseRefreshRate": false
-    },
-    {
-      "type": "de",
-      "key": " De",
-      "slowVersionDetection": false
-    },
-    {
-      "type": "wm",
-      "key": " Wm",
-      "keyColor": "#f0c6c6",
-      "detectPlugin": false
-    },
-    {
-      "type": "wmtheme",
-      "key": "󰓸 WmTheme",
-      "keyColor": "#ee99a0"
-    },
-    {
-      "type": "theme",
-      "key": "󰉼 Theme",
-      "keyColor": "#c6a0f6"
-    },
-    {
-      "type": "icons",
-      "key": " Icons",
-      "keyColor": "#ee99a0"
-    },
-    {
-      "type": "font",
-      "key": " Font",
-      "keyColor": "#939ab7"
-    },
-    {
-      "type": "cursor",
-      "key": " Cursor",
-      "keyColor": "yellow"
+      "keyColor": "#8bd5ca"
     },
     {
       "type": "terminal",
       "key": " Term",
-      "keyColor": "#b7bdf8"
+      "keyColor": "#f5bde6"
     },
+    {
+      "type": "wm",
+      "key": " Wm",
+      "keyColor": "#7dc4e4",
+      "detectPlugin": false
+    },
+    //{
+    //  "type": "font",
+    //  "key": " Font",
+    //  "keyColor": "#a5adcb"
+    //},
     {
       "type": "terminalfont",
       "key": " TermFont",
@@ -241,7 +202,7 @@
       "keyColor": "#ed8796",
       "driverSpecific": false,
       "detectionMethod": "pci",
-      "temp": false,
+      "temp": true,
       "hideType": "none",
       "percent": {
         "green": 50,
@@ -250,9 +211,16 @@
       }
     },
     {
+      "type": "display",
+      "key": "󰍹 Display",
+       "keyColor": "#b7bdf8",
+      "compactType": "none",
+      "preciseRefreshRate": false
+    },
+    {
       "type": "memory",
       "key": " Memory",
-      "keyColor": "#8bd5ca",
+      "keyColor": "#f4dbd6",
       "percent": {
         "green": 50,
         "yellow": 80,
@@ -267,7 +235,7 @@
         "type": 0
       },
       "key": " Swap",
-      "keyColor": "#8bd5ca",
+      "keyColor": "#f0c6c6",
       "separate": false
     },
     {
@@ -293,13 +261,13 @@
     {
       "type": "localip",
       "key": "󰩟 IP",
-      "showIpv4": true,
+      "showIpv4": false,
       "showIpv6": false,
       "showMac": false,
       "showLoop": false,
       "showPrefixLen": true,
       "showMtu": false,
-      "showSpeed": false,
+      "showSpeed": true,
       "showFlags": false,
       "compact": false,
       "defaultRouteOnly": true,
@@ -318,13 +286,13 @@
       }
     },
     {
-      "type": "poweradapter",
-      "key": "󰚥"
+      "type": "uptime",
+      "key": " Uptime",
+       "keyColor": "#91d7e3"
     },
     {
-      "type": "locale",
-      "key": "  Locale",
-      "keyColor": "#7dc4e4"
+      "type": "poweradapter",
+      "key": "󰚥"
     },
     "break",
     {
